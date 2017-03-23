@@ -1,3 +1,29 @@
 .stylenav {
   background-color: ;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.clear {
+  float: left;
+  padding-top: 20px;
+
+
+}
+
+.email {
+  float: left;
+  padding-left: 100px;
+}
+
+.text {
+  padding-left: 70px;
+  padding-right:20px;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+.subit {
+  padding-left: 170px;
 }
