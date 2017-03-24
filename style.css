@@ -2,7 +2,7 @@
 
 .stylenav {
   background-color: ;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 .clear {
@@ -32,8 +32,6 @@
 .links {
   color: black;
   float:right;
-  position: relative;
-  bottom: 35px;
   padding-right: 40px;
   font-size: 40px;
 
@@ -49,9 +47,24 @@
 .text {
   float:left;
   padding-left: 40px;
-}
+  font-family: 'Lato', sans-serif;
+  }
  .pad {
-   padding-top: 50px;
+   padding-top: 100px;
+ }
+
+ .dap {
+   padding-top: 70px;
+   padding-left: 160px;
+ }
+
+ .submit {
+  position: relative;
+bottom: 20px;
+padding-left: 30px
+ }
+ .move {
+   padding-left: 200px;
  }
 
  .twitter {
