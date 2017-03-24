@@ -27,3 +27,18 @@
 .subit {
   padding-left: 170px;
 }
+
+.links {
+  color: black;
+  float:right;
+  position: relative;
+  bottom: 35px;
+  padding-right: 40px;
+  font-size: 40px;
+
+}
+
+
+.balloon {
+  
+}
