@@ -71,6 +71,35 @@
 
 <img class="balloon" src="balloon.jpg" alt="Balloon">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+
+    var panels = $('.accordion > dd').hide();
+
+    panels.first().show();
+
+    $('.accordion > dt > a').click(function() {
+      var $this = $(this);
+
+      panels.slideUp();
+
+      $this.parent().next().slideDown();
+
+      return false;
+    });
+  });
+</script>
+</head>
+<body>
+<dl class="accordion">
+  <dt><a href="">Here is your weekly random challenge</a></dt>
+  <dd>Call a friend and ask if they remember a one noble gas from the periodic table aside from Helium</dd>
+
+  <dt><a href="">Need an idea now?</a></dt>
+  <dd>jQuery generator here yo</dd>
+</dl>
+
 <div class="text">
 <h1 class="pad"  style="font-size:50px; color: #1E87C7;"> Here is your weekly random challenge</h1>
 <p style="font-size:30px;"> Go Watch the sunrise at a local lake</p>
