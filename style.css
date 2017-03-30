@@ -1,11 +1,12 @@
 .body {
   height:650px;
+  background-color: #C7E5FF;
 }
 
 .navbar { margin-bottom:0px !important; }
 
 .stylenav {
-  background-color: ;
+  background-color: #5E6BFF;
   font-family: 'Lato', sans-serif;
 }
 
