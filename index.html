@@ -84,6 +84,25 @@
       panels.slideUp();
 
       $this.parent().next().slideDown();
+        
+      var list = [
+        "Make your own ice cream",
+        "Go to a shop buy three flowers and give it to random people",
+        "Bike to the next town, sit down in the park and read a book",
+        "Keep a dream diary and try to lucid dream",
+        "Get a camera and take photos of your town/friends and put them in your wall",
+        "Sign up to be a volunteer",
+        "Make a time capsule and bury it, but write down where it is",
+        "Get all your friends together, prepare a night with photos together film",
+        "Go to a karaoke bar",
+        "Go on wine tasting",
+        "Call a relative you havent had contact with in a while and arrange to meet them",
+        "Go camping to a local lake",
+        "Go to the nearest lake and watch the sunrise"
+      ];
+      var random = Math.floor(Math.random() * list.length);
+      var rndelement = list[random];
+      $('body > div.down > div.accor > dl > dd:nth-child(4)').text(rndelement);
 
       return false;
     });
